@@ -68,6 +68,7 @@
 <img src="/images/ERD.png" width="400">
 
 📂 Project Structure (패키지 구조)
+```bash
 src/main/java
 └── com.fortune.project
     ├── controller     # 서블릿(Servlet) 요청 처리  
@@ -78,3 +79,4 @@ webapp
 ├── assets             # CSS, 이미지, JS 파일
 ├── views              # JSP 화면 (로그인, 운세입력, 결과창 등)
 └── admin              # 관리자 전용 페이지
+```
