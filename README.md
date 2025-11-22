@@ -30,27 +30,42 @@
 
 특징: 단순 DB 조회가 아니라 AI가 실시간으로 문맥을 생성하므로, 매번 풍부하고 색다른 운세 해설을 제공.
 
+<img src="/images/운세입력.png" width="400">
+
 2. 📝 운세 기록 및 비교 (History)
 
 기능: 한번 조회한 운세는 데이터베이스(FortuneRecord)에 자동 저장.
 
 활용: '기록 보기' 페이지에서 지난 운세들과 오늘의 운세를 비교하며, 나만의 운세 패턴이나 주기성을 파악 가능.
 
-3. 🔐 회원 관리 시스템 (Authentication)
+<img src="/images/운세기록.png" width="400">
+
+3. 🔐 회원 가입 시스템 (Authentication)
 
 회원가입: 아이디 중복 체크, 유효성 검사(5자 이상, 영문/숫자 조합), 비밀번호 마스킹 처리.
 
+<img src="/images/회원가입.png" width="400">
+<img src="/images/조건1.png" width="400">
+<img src="/images/조건2.png" width="400">
+<img src="/images/가입완료.png" width="400">
+
 로그인/로그아웃: 세션(Session)을 활용한 사용자 인증 상태 유지.
+
+<img src="/images/로그인.png" width="400">
 
 4. 👑 관리자 모드 (Admin)
 
 사용자 관리: 전체 회원의 정보 조회 및 정보 수정, 강제 탈퇴(삭제) 기능.
 
+<img src="/images/계정관리.png" width="400">
+
 운세 데이터 관리: 모든 사용자의 운세 생성 로그를 모니터링하고 부적절한 데이터 삭제 가능.
+
+<img src="/images/운세관리.png" width="400">
 
 💾 Database Structure (ERD 설계)
 
-
+<img src="/images/ERD.png" width="400">
 
 📂 Project Structure (패키지 구조)
 src/main/java
